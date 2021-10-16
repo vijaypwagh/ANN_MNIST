@@ -1,0 +1,4 @@
+name: D:\datasets\Deep learning\VS Code\ANN_MNIST\envs
+channels:
+  - defaults
+prefix: D:\datasets\Deep learning\VS Code\ANN_MNIST\envs
