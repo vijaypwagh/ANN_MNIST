@@ -19,5 +19,5 @@ setup(
         "matplotlib",
         "seaborn",
         "numpy",
-        "pandas"
-    ]
+        "pandas"]
+)
