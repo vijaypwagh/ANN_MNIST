@@ -1,7 +1,8 @@
 import os
 from src.utils.common import read_config
 from src.utils.data_mgmt import get_data
-from src.utils.model import create_model, save_model
+from src.utils.model import create_model 
+# from src.utils.model import create_model, save_model
 import argparse
 
 def training(config_path):
@@ -17,7 +18,7 @@ def training(config_path):
 
     model = create_model(LOSS_FUNCTION, OPTIMIZER, METRICS, NUM_CLASSES)
 
-    EPOCHS = config["params"]["epochs"]
+    EPOCHS = config["params"]["epoch"]
     VALIDATION_SET = (X_valid, y_valid)
 
     history = model.fit(X_train, y_train, epochs=EPOCHS,
